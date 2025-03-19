@@ -30,7 +30,7 @@ Puoi aggiungerlo in `.bashrc`, `.zshrc` o `.bash_profile` per renderlo permanent
 ## 🏃‍♂️ Utilizzo
 Una volta installata, puoi eseguire la CLI con:
 ```sh
-mia_cli --name "NomeProgetto" --template "bloc" --with-tests
+custom-cli --name "NomeProgetto" --template "bloc" --with-tests
 ```
 
 ### 📜 Opzioni disponibili
@@ -47,10 +47,10 @@ mia_cli --name "NomeProgetto" --template "bloc" --with-tests
 
 Esempi di utilizzo:
 ```sh
-mia_cli --name "SuperApp" --template "mvvm" --no-firebase
+custom-cli --name "SuperApp" --template "mvvm" --no-firebase
 ```
 ```sh
-mia_cli --name "TestApp" --with-tests --with-analytics
+custom-cli --name "TestApp" --with-tests --with-analytics
 ```
 
 ---
